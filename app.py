@@ -22,7 +22,7 @@ def get_coordinates_for_postal_code(postal_code):
       x = response.json()
       lat = x['results'][0]['LATITUDE']
       lon = x['results'][0]['LONGITUDE']
-      return(lat,lon)
+      return(lon,lat)
     else:
       print("Error fetching coordinates")
 
