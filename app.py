@@ -1,6 +1,7 @@
 import json
 import os
 from flask import Flask, jsonify, request
+import requests
 from shapely.geometry import Point, Polygon
 
 app = Flask(__name__)
