@@ -1,5 +1,5 @@
 # Flask API for Electoral Divisions
-Data taken directly from beta.data.gov.sg. Currently, this API has access only to what is on the site, aka: 2006, 2011 and 2020 electoral divisions.
+Data taken directly from beta.data.gov.sg. Currently, this API has access only to what is on the site, aka: 2006, 2011, 2015 and 2020 electoral divisions.
 
 ## How to use
 TLDR Here's a simple code snippet in Python that you can use.
