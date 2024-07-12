@@ -1,2 +1,2 @@
-# eld-api
-who knows what the future holds??? -- a flask API for electoral divisions (will update)
+# Flask API for Electoral Divisions
+Find out what your GRC is based on your postal code
