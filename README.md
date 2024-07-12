@@ -9,7 +9,7 @@ import requests
 def get_grc(year,postal_code):
     url = f"https://eld-api.onrender.com/api/query?year={year}&postal_code={postal_code}"
     response = requests.get(url)
-    return response
+    return response.json()
 ````
 
 Shortcut: Run this URL in your browser, and replace the year and postal code with what you're interested in:
